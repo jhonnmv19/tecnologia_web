@@ -4,71 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú de Prácticas</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f0f0;
-            text-align: center;
-        }
-
-        h1 {
-            margin-top: 40px;
-        }
-
-        .menu-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 40px;
-            gap: 20px;
-        }
-
-        .item {
-            background: white;
-            width: 220px;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .item:hover {
-            transform: scale(1.05);
-            background: #ececec;
-        }
-
-        a {
-            text-decoration: none;
-            color: #333;
-            font-size: 18px;
-            font-weight: bold;
-            display: block;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <h1>Menú de Prácticas</h1>
+    <header>
+        <h1>Menú de Prácticas</h1>
+        <p>Selecciona una práctica para ir a su repositorio en GitHub</p>
+    </header>
 
-    <div class="menu-container">
-        <div class="item">
-            <a href="https://github.com/jhonnmv19/tecnologia_web" target="_blank">
-                Práctica 1
-            </a>
-        </div>
+    <div class="menu">
+        <a href="https://github.com/jhonnmv19/tecnologia_web" class="card" target="_blank">
+            <h2>Práctica 1</h2>
+            <p>HTML básico</p>
+        </a>
 
-        <div class="item">
-            <a href="https://github.com/jhonnmv19/tecnologia_web" target="_blank">
-                Práctica 2
-            </a>
-        </div>
+        <a href="https://github.com/jhonnmv19/tecnologia_web" class="card" target="_blank">
+            <h2>Práctica 2</h2>
+            <p>Estilos con CSS</p>
+        </a>
 
-        <div class="item">
-            <a href="https://github.com/jhonnmv19/tecnologia_web" target="_blank">
-                Práctica 3
-            </a>
-        </div>
+        <a href="https://github.com/jhonnmv19/tecnologia_web" class="card" target="_blank">
+            <h2>Práctica 3</h2>
+            <p>Maquetación Web</p>
+        </a>
+
+        <a href="https://github.com/jhonnmv19/tecnologia_web" class="card" target="_blank">
+            <h2>Práctica 4</h2>
+            <p>Formularios</p>
+        </a>
     </div>
 
 </body>
